@@ -1,0 +1,12 @@
+package com.example.domain.model.ordering {
+	
+	entity Customer {
+		name : String
+		address : String
+	}
+	
+	entity PO {
+		number : Integer
+		issuedBy: Customer
+	}
+}

@@ -1,0 +1,13 @@
+import com.example.domain.model.ordering.Customer
+
+package com.example.domain.model.customer_management {
+	
+	entity Employee {
+		name : String
+		ref something : Customer
+					//	place your cursor above (after "... something : "), 
+					//	hit control + space,
+					//	and select "Customer" or "PO" defined in test1.dmodel,
+					//	to test import generation
+	}
+}
